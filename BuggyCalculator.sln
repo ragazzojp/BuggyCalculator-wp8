@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuggyCalculator", "BuggyCalculator", "{DCEA912C-BF5E-44DC-9A81-EF0A5A498EF3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BuggyCalculator.Shared", "BuggyCalculator\BuggyCalculator.Shared\BuggyCalculator.Shared.shproj", "{38D01791-A953-4DA4-BFCE-E3236FA5F085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuggyCalculator.WindowsPhone", "BuggyCalculator\BuggyCalculator.WindowsPhone\BuggyCalculator.WindowsPhone.csproj", "{E0F6199B-423D-4B62-9F05-50135E5FF4C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D437F6E5-D459-457D-BC0D-7C3D0BEBF69F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OriginalAssets", "OriginalAssets", "{301028D2-4981-4C7D-8762-941F86702D60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsPhone", "WindowsPhone", "{0ED6E097-3028-48C6-ADBC-8C7FE2BDF061}"
+	ProjectSection(SolutionItems) = preProject
+		Assets\WindowsPhone\AppListLogo.svg = Assets\WindowsPhone\AppListLogo.svg
+		Assets\WindowsPhone\SplashScreen.svg = Assets\WindowsPhone\SplashScreen.svg
+		Assets\WindowsPhone\Square150x150Logo.svg = Assets\WindowsPhone\Square150x150Logo.svg
+		Assets\WindowsPhone\Square71x71Logo.svg = Assets\WindowsPhone\Square71x71Logo.svg
+		Assets\WindowsPhone\StoreLogo.svg = Assets\WindowsPhone\StoreLogo.svg
+		Assets\WindowsPhone\Wide310x150Logo.svg = Assets\WindowsPhone\Wide310x150Logo.svg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{D5C1480B-57A7-4594-9D51-DED30FEA7CA0}"
+	ProjectSection(SolutionItems) = preProject
+		Store\AppTileIcon.png = Store\AppTileIcon.png
+		Store\MobileShot1.en.wxga.png = Store\MobileShot1.en.wxga.png
+		Store\MobileShot1.it.wxga.png = Store\MobileShot1.it.wxga.png
+		Store\MobileShot2.en.wxga.png = Store\MobileShot2.en.wxga.png
+		Store\MobileShot2.it.wxga.png = Store\MobileShot2.it.wxga.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BuggyCalculator\BuggyCalculator.Shared\BuggyCalculator.Shared.projitems*{e0f6199b-423d-4b62-9f05-50135e5ff4c9}*SharedItemsImports = 4
+		BuggyCalculator\BuggyCalculator.Shared\BuggyCalculator.Shared.projitems*{38d01791-a953-4da4-bfce-e3236fa5f085}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|ARM.Build.0 = Debug|ARM
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|x86.ActiveCfg = Debug|x86
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|x86.Build.0 = Debug|x86
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Debug|x86.Deploy.0 = Debug|x86
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|ARM.ActiveCfg = Release|ARM
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|ARM.Build.0 = Release|ARM
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|ARM.Deploy.0 = Release|ARM
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|x64.ActiveCfg = Release|Any CPU
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|x86.ActiveCfg = Release|x86
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|x86.Build.0 = Release|x86
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38D01791-A953-4DA4-BFCE-E3236FA5F085} = {DCEA912C-BF5E-44DC-9A81-EF0A5A498EF3}
+		{E0F6199B-423D-4B62-9F05-50135E5FF4C9} = {DCEA912C-BF5E-44DC-9A81-EF0A5A498EF3}
+		{301028D2-4981-4C7D-8762-941F86702D60} = {D437F6E5-D459-457D-BC0D-7C3D0BEBF69F}
+		{0ED6E097-3028-48C6-ADBC-8C7FE2BDF061} = {301028D2-4981-4C7D-8762-941F86702D60}
+		{D5C1480B-57A7-4594-9D51-DED30FEA7CA0} = {D437F6E5-D459-457D-BC0D-7C3D0BEBF69F}
+	EndGlobalSection
+EndGlobal

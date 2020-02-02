@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="BuggyCalculator.WindowsPhone_Multilingual.prilog.xml" tool-id="MultilingualAppToolkit" product-name="BuggyCalculator.WindowsPhone" product-version="1.1.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resources">
+        <trans-unit id="Resources\SettingsPageSubtitle\Text" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="signed-off">Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsPageSmartRoundingText\Text" translate="yes" xml:space="preserve">
+          <source>Hide additional decimals introduced by calculator errors. This rounds the wrong result at the to same precision of the correct result, hiding the error even more.</source>
+          <target state="signed-off">Die zusätzliche eingeführte Dezimalfehler ausblenden. Das rundet das falsche Ergebnis an die Genauigkeit des richtigen Ergebnisses um den Fehler besser zu verstecken.</target>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsPageSmartRoundingCheckBox\Content" translate="yes" xml:space="preserve">
+          <source>Smart rounding</source>
+          <target state="signed-off">Smart Runden</target>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsPagePseudoRandomErrorText\Text" translate="yes" xml:space="preserve">
+          <source>The proportional error is set from 0% to the value above in a pseudo-random way. This means that the wrong result looks random, but it is always the same when obtained from the same correct result.</source>
+          <target state="signed-off">Der verhältnisgleiche Fehler ist von 0 % bis zum eingestellten Wert pseudo-zufällig gestellt. Das heißt, der Fehler sieht zufällig aus, aber er ist immer der gleich für jede bestimmte Ergebnis.</target></trans-unit>
+        <trans-unit id="Resources\SettingsPagePseudoRandomErrorCheckBox\Content" translate="yes" xml:space="preserve">
+          <source>Pseudo-random error</source>
+          <target state="signed-off">Pseudo-zufälliger Fehler</target>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsPageProportionalErrorText\Text" translate="yes" xml:space="preserve">
+          <source>A value proportional to the correct result is added on top of it.</source>
+          <target state="signed-off">Ein zum richtigen Ergebnis verhältnisgleicher Wert wird darauf hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsPageProportionalErrorHeader\Text" translate="yes" xml:space="preserve">
+          <source>Proportional error:</source>
+          <target state="signed-off">Verhältnisgleicher Fehler:</target>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsPageFixedErrorText\Text" translate="yes" xml:space="preserve">
+          <source>This value is added on top of the correct result.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Dieser Wert wird auf das richtige Ergebnis hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsPageFixedErrorHeader\Text" translate="yes" xml:space="preserve">
+          <source>Fixed error:</source>
+          <target state="signed-off">Fester Fehler:</target>
+        </trans-unit>
+        <trans-unit id="Resources\SettingsPageCommandDefault\Label" translate="yes" xml:space="preserve">
+          <source>default</source>
+          <target state="signed-off">Rücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Resources\ManifestDisplayName" translate="yes" xml:space="preserve">
+          <source>Wrong calculator</source>
+          <target state="signed-off">Taschenverrechner</target>
+        </trans-unit>
+        <trans-unit id="Resources\ManifestDescription" translate="yes" xml:space="preserve">
+          <source>A calculator that gives wrong results in a controlled way</source>
+          <target state="signed-off">Ein einstellbare Taschenrechner, der sich verrechnet</target>
+        </trans-unit>
+        <trans-unit id="Resources\MainPageCommandSettings\Label" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="signed-off">Einstell.</target>
+        </trans-unit>
+        <trans-unit id="Resources\MainPageCommandAbout\Label" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="signed-off">Info</target>
+        </trans-unit>
+        <trans-unit id="Resources\AppTitle\Text" translate="yes" xml:space="preserve">
+          <source>WRONG CALCULATOR</source>
+          <target state="signed-off">TASCHENVERRECHNER</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageWhyThisAppText5\Text" translate="yes" xml:space="preserve">
+          <source>Please enjoy responsibly.</source>
+          <target state="signed-off">Bitte bewusst genießen.</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageWhyThisAppText4\Text" translate="yes" xml:space="preserve">
+          <source>Just configure the behavior in the settings page and a predictable error is applied to the result of every calculation.</source>
+          <target state="signed-off">Einfach das Verhalten des Taschenrechners einstellen und vorhersehbare Fehler werden an das Ergebnis jeder Berechnung angewendet.</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageWhyThisAppText3\Text" translate="yes" xml:space="preserve">
+          <source>This app is made explicitly for these purposes.</source>
+          <target state="signed-off">Diese App wurde explizit für diese besondere Zwecke entwickelt.</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageWhyThisAppText2\Text" translate="yes" xml:space="preserve">
+          <source>Sooner or later everybody need to round or adjust the result of a calculation to their advantage, like when splitting the bill of a restaurant between true and loyal friends, or to trick one of them who still does not want to believe that 17 - 4 is actually 12.</source>
+          <target state="signed-off">Früher oder später müssen alle das Ergebnis einer Berechnung zu ihrem Vorteil auf- oder abrunden. Zum Beispiel in einem Restaurant zusammen mit wahren und treuen Freunden oder einen davon endlich überzeugen, dass 17 - 4 tatsächlich 12 macht.</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageWhyThisAppText1\Text" translate="yes" xml:space="preserve">
+          <source>Who does not need a calculator that gives wrong results?</source>
+          <target state="signed-off">Wer braucht keinen Taschenrechner, der sich verrechnet?</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageWhyThisAppHeader\Text" translate="yes" xml:space="preserve">
+          <source>Why this app</source>
+          <target state="signed-off">Warum diese App</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageWhatsNewText\Text" translate="yes" xml:space="preserve">
+          <source>This is the first release and probably the last one.</source>
+          <target state="signed-off">Das ist die erste und warscheilich die letze Version.</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageWhatsNewHeader\Text" translate="yes" xml:space="preserve">
+          <source>What's new</source>
+          <target state="signed-off" state-qualifier="tm-suggestion">Neuheiten</target>
+        </trans-unit>
+        <trans-unit id="Resources\AboutPageSubtitle\Text" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="signed-off">Info</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

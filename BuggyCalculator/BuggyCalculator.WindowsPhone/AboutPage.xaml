@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="BuggyCalculator.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BuggyCalculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+    
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Page.Resources>
+    
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">            
+            <TextBlock x:Uid="AppTitle" Margin="0,12,0,0" Style="{ThemeResource TitleTextBlockStyle}"/>
+            <TextBlock x:Uid="AboutPageSubtitle" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!-- Page content -->
+        <ScrollViewer Grid.Row="1" x:Name="ContentRoot" Margin="19,0,19,9.5">
+            <StackPanel>
+                <TextBlock x:Uid="AboutPageWhyThisAppHeader" Style="{ThemeResource Header}"/>
+                <TextBlock x:Uid="AboutPageWhyThisAppText1" Style="{ThemeResource Paragraph}"/>
+                <TextBlock x:Uid="AboutPageWhyThisAppText2" Style="{ThemeResource Paragraph}"/>
+                <TextBlock x:Uid="AboutPageWhyThisAppText3" Style="{ThemeResource Paragraph}"/>
+                <TextBlock x:Uid="AboutPageWhyThisAppText4" Style="{ThemeResource Paragraph}"/>
+                <TextBlock x:Uid="AboutPageWhyThisAppText5" Style="{ThemeResource Paragraph}"/>
+                <TextBlock x:Uid="AboutPageWhatsNewHeader" Style="{ThemeResource Header}"/>
+                <TextBlock x:Uid="AboutPageWhatsNewText" Style="{ThemeResource Paragraph}"/>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+
+</Page>
